@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Název stránky</title>
+    <link rel="stylesheet" href="styles.css"> <!-- odkaz na CSS soubor -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- ikona v záložce -->
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"></div>
+        <ul class="nav-links">
+            <li><a href="#About Me">About Me</a></li>
+            <li><a href="#Teaching">Teaching</a></li>
+            <li><a href="#Skillset">Skillset</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact Me">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="About Me">
+        <div class="section-box">
+            <h1>Richard Loucka</h1>
+            <p>
+                I am a passionate developer, programmer, and UI/UX designer with a keen interest in cutting-edge technologies including AI. I love crafting elegant solutions that combine functionality and design, always pushing the boundaries of what's possible. Let's build the future together!
+            </p>
+        </div>
+    </section>
+
+    
+    <section id="Teaching">
+        <div class="section-box">
+            <h1>Teaching</h1>
+            <ul class="teaching-links">
+                <li><a href="programming.html">Programování</a></li>
+                <li><a href="web.html">Základy tvorby webu</a></li>
+                <li><a href="hardware.html">Hardware</a></li>
+                <li><a href="informatika.html">Obecná informatika</a></li>
+        </div>
+    </section>
+
+    <section id="Skillset">
+        <div class="section-box">
+            <h1>Skillset</h1>
+            <ul class="skillset-links">
+                <li>C#</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Common Lisp</li>
+                <li>C language</li>
+                <li>Swift</li>
+                <li>Assembler</li>
+                <li>Web Applications</li>
+                <li>PostgreSQL</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="Projects">
+        <div class="section-box">
+            <h1>Projects</h1>
+            <ul class="projects-links">
+                <li>GymBro - Fitness iOS application connected with Apple Watch</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="Contact Me">
+        <div class="section-box">
+            <h1>Contact Me</h1>
+            <form class="contact-form" action="#" method="post">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Your email" required><br><br>
+                
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject" placeholder="Subject" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea><br><br>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
